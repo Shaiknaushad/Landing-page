@@ -32,11 +32,7 @@ body{
     color: #f9faf8;
     font-weight: bold;
     font-size: 24px; 
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 10px;
-    flex-shrink: 0;
+    padding:10px 200px;
     margin-bottom: 100px;
 }
 
@@ -44,51 +40,52 @@ body{
     display: flex;
     gap:15px;
     color: #e5e7eb;   
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 5px;
+    padding:5px 200px 10px;
 }
 
 li{
     list-style-type: none;
 }
 
-.headertext{
-    display:flex;
-    flex-direction: column;
+.m1 {
+    display: flex; /* Use flex to align text and image side-by-side */
+    align-items: center; /* Center vertically */
+    gap: 70px; /* Add space between text and image */
+    padding: 20px 200px; /* Adjust padding for overall spacing */
+  }
+  
+  .headertext {
+    flex: 1; /* Allow text section to take up remaining space */
     
-}
-
-
-.awesome{
-    display: flex;
+  }
+  
+  .awesome {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    padding-left: 200px;
-    padding-right: 800px;
-    flex-shrink: 0;
-}
-
-.headertext p{
-    padding-left: 200px;
-    padding-right: 700px;
+  }
+  
+  .headertext p {
     font-size: 18px;
-    color:#e5e7eb;
-}
-
-.signup1{
+    color: #e5e7eb;
+    margin-right: 80px;
+  }
+  
+  .signup1 {
     background-color: #3882F6;
-    width:150px;
+    width: 150px;
     color: #e5e7eb;
     font-weight: 900;
-    padding: 3px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-}
+  }
+  
+  .image1 img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+  }
+    
 
-
+  
