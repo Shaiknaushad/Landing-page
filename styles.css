@@ -88,4 +88,151 @@ li{
   }
     
 
+
+/* Section-2 */
+body {
+    text-align: center;
+  }
   
+  .title {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 100px;
+    margin-bottom: 100px;
+  }
+
+  .info img{
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        border: 3px solid #3882F6;
+  }
+
+
+
+/* section-3 */
+
+.section3{
+    margin-top: 10px;
+    background-color: #e5e7eb;
+    padding:50px;
+}
+
+
+
+.text3{
+    display:flex;
+    flex-direction: column;
+    gap:3px;
+    
+}
+
+.text3 .quote{
+    font-size: 36px;
+    font-style: italic; /* Slanted text */
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text3 .author{
+    text-align: right;
+    padding-right: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#1f2937;
+}
+
+
+/* section-4 */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container4 {
+    display: flex;
+    flex:1;
+    gap: 50px; /* Adjust gap for spacing between text and button */
+    align-items: center; /* Vertically center align items */
+    justify-content: space-between; /* Ensure items are spaced properly */
+}
+
+.text4 {
+    text-align: left; /* Align text content to the left */
+    color: white; /* Optional: For better contrast */
+}
+
+.text4 .mainh{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.button4 button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color:#3882F6; /* Button background */
+    color: white; /* Button text color */
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+/* Footer */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure full viewport height and flex layout */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content Area */
+body {
+    flex: 1;
+    margin: 0; /* Ensure no margin on the body */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: white;
+    margin-top: auto;
+    width: 100%; /* Ensure the footer spans the full width */
+
+}
